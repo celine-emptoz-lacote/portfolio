@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #f5ddc778;
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1  {
+    margin-bottom: 2%;
+    padding: 0.5%;
+    background-color: #613002;
+    color: white;
+}
+
+h2 {
+    width: 40%;
+    margin: 2% auto;
+    color: white;
+    border-top: 3px dashed white;
+    border-bottom: 3px dashed white;
+    font-size: 30px;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+em {
+    color: #613002;
+    font-weight: bold;
+}
+
+.description {
+    width: 70%;
+    margin: 3% auto;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #caa785b7;
+}
+
+section div , section .section-img {
+    width: 50%;
+   
+}
+
+.section-img img {
+    width: 100%;
+    cursor: zoom-in;
+}
+
+ul {
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+}
+ 
+li {
+    list-style: none;
+    text-align: left;
+}
+
+.logo {
+    width: 10%;
+}
+
+.boutton {
+    display: inline-block;
+    width: 15%;
+    margin: 1%;
+    padding: 1%;
+    text-decoration: none;
+    background-color: #613002;
+    color: white;
+    border-radius: 20PX;
+}
+
+.boutton:hover {
+    background-color: #613002b6;
+}

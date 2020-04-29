@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Céline EMPTOZ-LACOTE</title>
+    <link rel="stylesheet" href="CSS/fontello/css/fontello.css">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+</head>
+<body>
+    <header id="accueil">
+        <div class="div-header" >
+            <h1>Céline EMPTOZ-LACOTE</h1>
+            <p>Dévellopeuse web & mobile</p>
+        </div>
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#apropos">A propos</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#competences">Compétences</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main class="accueil-main">
+        <section id="apropos">
+            <h1>À PROPOS</h1>
+            <p>Une petite présentation pour mieux me connaître</p>
+            <div class="apropos-div">
+                <p><span class="identite">Céline Emptoz-Lacote , 33 ans</span><br />
+                Etudiante en dévellopement web à la plateforme à Marseille</p>
+                <p>Ce portfolio a pour but de présenter les différents projets sur lesquels j'ai travaillé ces dernièrs mois.</p>
+                <p>Si vous avez une question, ou si vous avez simplement besoin d'un renseignement, vous pouvez me contacter en cliquant ici: <a href="#contact">Contact</a></p>
+            </div>        
+            <a class="apropos-a" href="src/celineemptoz-lacote.pdf" target="_blank">Télécharger mon CV</a>   
+        </section>
+        
+        <section id="portfolio">
+            <h1>PORTFOLIO</h1>
+            <p>Projets réalisés en formation avec d'autres éleves</p>
+            <div class="portfolio-div">
+                <figure>
+                    <img src="src/img/capture1.PNG" alt="Work in progress">
+                    <figcaption>Projet Work in progress</figcaption>
+                    <a  href="projet1.html" class="lien-projet1"></a>
+                </figure>
+                <figure>
+                    <img src="src/img/capture2.PNG" alt="IDE">
+                    <figcaption>Projet IDE</figcaption>
+                    <a  href="projet2.html" class="lien-projet2"></a>
+                </figure>
+                <figure>
+                    <img src="src/img/capture4.PNG" alt="Botanique">
+                    <figcaption>Projet Botanique</figcaption>
+                    <a  href="projet3.html" class="lien-projet3"></a>
+                </figure>
+                <figure>
+                    <img src="src/img/capture5.PNG" alt="Voyage">
+                    <figcaption>Projet Voyage</figcaption>
+                    <a  href="projet4.html" class="lien-projet4"></a>
+                </figure>
+               
+                <figure>
+                    <img src="src/img/capture8.PNG" alt="Ville de Marseille">
+                    <figcaption>Projet Ville de Marseille</figcaption>
+                    <a  href="projet5.html" class="lien-projet5"></a>
+                </figure> 
+            </div>
+        </section>
+        
+        <section id="competences">
+            <h1>MES COMPETENCES</h1>
+            <div>
+                <section>
+                    <h4>80%</h4>
+                    <p><img src="src/img/html.png" alt=""> <progress class="html" max="100" value="80" title="80%"></progress> </p>
+                </section>
+                <section>
+                    <h4>70%</h4>
+                    <p><img src="src/img/css.png" alt=""> <progress class="css" max="100" value="70" title="70%"></progress> </p>
+                </section>
+                <section>
+                    <h4>40%</h4>
+                    <p><img src="src/img/github.png" alt=""> <progress class="git" max="100" value="40" title="40%"></progress> </p>
+                </section>
+                <section>
+                    <h4>A venir</h4>
+                    <p><img src="src/img/js.png" alt=""> <progress class="js" max="100" value="0" title="0%"></progress> </p>
+                </section>
+                <section>
+                    <h4>A venir</h4>
+                    <p><img src="src/img/php.png" alt=""> <progress class="php" max="100" value="0" title="0%"></progress> </p>
+                </section>           
+            </div>
+        </section>   
+        
+    </main>
+    <div id="scroll_to_top"> 
+            
+        <a href="#accueil"> <span class="accueil"></span> Accueil</a> 
+        <a href="#apropos"><span class="apropos"></span> A propos</a>
+        <a href="#competences"><span class="competences"></span> Mes compétences</a>
+        <a href="#contact"><span class="contact-menu"> Contact</span></a>
+    </div>
+    <footer id="contact">
+        <div class="footer-div">
+            <section class="footer-div-section1">
+                <h2>Détails</h2>
+                <div>
+                    <p> <span class="adress"></span> Salon de Provence</p>
+                <p><span class="phone"></span> 06 63 76 67 84</p>
+                <p><span class="mail"></span> celine.emptozlacote@gmail.com</p>
+                </div>
+                
+            </section>
+            <section class="footer-div-section2">
+                <h2>Ecrivez moi !</h2>
+                <form action="#accueil" method="POST">
+                    <input type="text" name="nom" placeholder="Votre nom et prénom" required>
+                    <input type="email" name="mail" placeholder="Votre addresse mail" required>
+                    <textarea name="message"  cols="30" rows="10" placeholder="Votre message" required></textarea>
+                    <input type="submit" value="Envoyer">
+
+                </form>
+            </section>
+        </div>
+        <section class="footer-section-reseaux">
+           <a href="https://github.com/celine-emptoz-lacote"><img src="src/img/github.png" alt="Logo de Github"></a> 
+           <a href="https://fr.linkedin.com/in/celine-emptoz-lacote-0394ba150"><img src="src/img/linkedin.png" alt="Logo de linkedin"></a>
+        </section>
+
+    </footer>
+   
+</body>
+</html>
