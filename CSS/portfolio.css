@@ -158,8 +158,6 @@ h1 , h2 , h4 {
     margin-bottom: 4%;
 }
 
-/**** A MODIF *****/
-
 .container-div1 a {
     text-decoration: none;
     color: black;
@@ -210,7 +208,7 @@ figcaption {
         font-size: 10px; 
     }
 
-    .lien-projet1 , .lien-projet2 ,  .lien-projet3 , .lien-projet4 , 
+.lien-projet1 , .lien-projet2 ,  .lien-projet3 , .lien-projet4 , 
  .lien-projet5{
     top: 30%;
     }
@@ -251,7 +249,7 @@ figcaption {
       transform: translate3d(0, 0, 0);
       
     }
-  }
+}
   
   .slideInRight {
     animation-name: slideInRight;
@@ -262,10 +260,12 @@ figcaption {
     display: inline-flex;
     flex-wrap: wrap;
 }
+
 #competences section{
     width: 50%;
     margin: 1% auto;
 }
+
 #competences section p img {
     width: 10%;
     display: inline-block;
