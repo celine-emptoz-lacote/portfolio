@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #f5ddc778;
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1  {
+    margin-bottom: 2%;
+    padding: 0.5%;
+    background-color: #613002;
+    color: white;
+}
+h2 {
+    width: 40%;
+    margin: 2% auto;
+    color: white;
+    border-top: 3px dashed white;
+    border-bottom: 3px dashed white;
+    font-size: 30px;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+em {
+    color: #008EB3;
+    font-weight: bold;
+}
+
+/***** MAIN *******/
+.description {
+    width: 70%;
+    margin: 3% auto;
+    font-size: 20px;
+}
+
+.main-img {
+    width: 30%;
+    margin-bottom: 3%;
+    cursor: zoom-in;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #caa785b7;
+}
+
+.section1 , .section2 {
+    width: 50%;
+}
+
+.section2-ul {
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+}
+ 
+.section2-li {
+    list-style: none;
+    text-align: left;
+}
+
+/**** SLIDE *****/
+img{
+    max-width: 100%;
+}
+
+.target{
+    display: none   
+}
+
+.screens {
+    max-width: 600px;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.img-screens {
+    display: flex;
+    width: 400%;
+    transition: transform .6s ease-in-out;  
+}
+
+/*image 1*/
+#screen1:target ~ .screens .img-screens{
+    transform:translatex(0)
+    
+}
+
+/*image 2*/
+#screen2:target ~ .screens .img-screens {
+    transform:translatex(-25%)  
+}
+
+/*image 3*/
+#screen3:target ~ .screens .img-screens {
+    transform:translatex(-50%)   
+}
+
+/*image 4*/
+#screen4:target ~ .screens .img-screens {  
+    transform:translatex(-75%)  
+}
+
+.navigation {
+    display: flex; 
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.navigation li {
+    padding: .25rem;
+}
+
+.navigation img {
+    border: 3px solid white;
+    box-shadow:0 0 5px hsla(0,0%,0%,.4);
+    width: 100%;
+}
+
+.screen{
+    width: 50%;
+}
+
+.logo {
+    width: 10%;
+}
+    
+/****** FOOTER ****/
+.boutton {
+    display: inline-block;
+    width: 15%;
+    margin: 1%;
+    padding: 1%;
+    text-decoration: none;
+    background-color: #613002;
+    color: white;
+    border-radius: 20PX;
+}
+
+.boutton:hover {
+    background-color: #613002b6;
+}
