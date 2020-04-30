@@ -163,3 +163,29 @@ img{
 .boutton:hover {
     background-color: #613002b6;
 }
+
+/***** RESPONSIVE ******/
+
+@media screen and (max-width:738px) {
+    
+    h2 {
+        width: 100%;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+    .boutton {  
+        width: 30%;  
+    }
+}
+
+@media screen and (min-width:661px) and (max-width:1174px) {
+    h2 {
+        width: 100%;
+    }
+   
+    .boutton {   
+        width: 25%;  
+    }
+}
