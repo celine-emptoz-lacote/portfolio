@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #f5ddc778;
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1  {
+    margin-bottom: 2%;
+    padding: 0.5%;
+    background-color: #613002;
+    color: white;
+}
+
+h2 {
+    width: 60%;
+    margin: 2% auto;
+    color: white;
+    border-top: 3px dashed white;
+    border-bottom: 3px dashed white;
+    font-size: 30px;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+em {
+    color: #008EB3;
+    font-weight: bold;
+}
+
+/***** MAIN *******/
+.description {
+    width: 70%;
+    margin: 3% auto;
+    font-size: 20px;
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #caa785b7;
+}
+
+.section1 div {
+    width: 33%;
+}
+
+.section1-ul {
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+}
+ 
+.section1-li {
+    list-style: none;
+    text-align: left;
+}
+
+.li-user::before {
+   font-family: "fontello";
+   content: "\e802";
+   color: #613002;
+   font-size: 15px;
+}
+
+.main-img {
+    width: 100%;
+    cursor: zoom-in;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2% 0 0;
+    padding: 1%;
+    background-color: #613002;
+}
+
+.flex figure {
+    width: 30%;
+    margin: 1%;
+    
+}
+
+.flex figure img {
+    width: 100%;  
+}
+
+figcaption {
+   background-color: #008EB3;
+   margin-top: -1.3%;
+   padding: 1%;
+   color: white;
+}
+
+
+
+.logo {
+    width: 10%;
+}
+
+
+
+/****** FOOTER ****/
+.boutton {
+    display: inline-block;
+    width: 15%;
+    margin: 1%;
+    padding: 1%;
+    text-decoration: none;
+    background-color: #caa785;
+    color: white;
+    border-radius: 20PX;
+}
+
+.boutton:hover {
+    background-color: #caa785b7;
+}
+
+/***** RESPONSIVE ******/
+
+@media screen and (max-width:738px) {
+    .main-img {
+        width: 60%;
+    }
+    h2 {
+        width: 60%;
+    }
+
+    .section1 {
+        flex-direction: column;
+    }
+
+    .section1 div {
+        width: 100%;
+    }
+    .li-user::before {
+        font-size: 20px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex figure {
+        width: 90%;
+        margin: 1% auto;
+    }
+    .boutton {  
+        width: 30%;  
+    }
+}
+
+@media screen and (min-width:661px) and (max-width:1174px) {
+    h2 {
+        width: 100%;
+    }
+    .section1-ul {
+       width: 90%;
+       margin: auto;
+        
+    }
+    .li-user::before {
+        font-size: 10px;
+    }
+    .boutton {   
+        width: 25%;  
+    }
+}
