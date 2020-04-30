@@ -53,6 +53,18 @@
       "css": "search",
       "code": 59397,
       "src": "elusive"
+    },
+    {
+      "uid": "a263473d2d406881ea08f991c1b38694",
+      "css": "left-circle",
+      "code": 59398,
+      "src": "iconic"
+    },
+    {
+      "uid": "ccee648b9e12a533f6957967e29ebdef",
+      "css": "right-circle",
+      "code": 59399,
+      "src": "iconic"
     }
   ]
 }

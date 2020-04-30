@@ -5,5 +5,7 @@
 .icon-award:before { content: '\e803'; } /* '' */
 .icon-folder:before { content: '\e804'; } /* '' */
 .icon-search:before { content: '\e805'; } /* '' */
+.icon-left-circle:before { content: '\e806'; } /* '' */
+.icon-right-circle:before { content: '\e807'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
 .icon-up:before { content: '\f176'; } /* '' */
